@@ -20,7 +20,7 @@ body {
 
 body::before {
   content: "";
-  position:absolute;
+  position:relative;
   background: #040404 url("../img/battleground_gif.gif") top repeat;
   background-size:cover;
   left: 0;
