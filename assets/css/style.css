@@ -12,7 +12,7 @@ body {
   font-family: "Open Sans", sans-serif;
   background-color: #040404;
   color: hsl(0, 0%, 100%);
-  position:static;
+  position:relative;
   background: transparent;
   padding-top: 10%;
   padding-right: 41%;
@@ -20,7 +20,7 @@ body {
 
 body::before {
   content: "";
-  position:relative;
+  position:fixed;
   background: #040404 url("../img/battleground_gif.gif") top repeat;
   background-size:cover;
   left: 0;
