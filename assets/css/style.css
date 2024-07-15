@@ -12,7 +12,7 @@ body {
   font-family: "Open Sans", sans-serif;
   background-color: #040404;
   color: hsl(0, 0%, 100%);
-  position:fixed;
+  position:absolute;
   background: transparent;
   padding-top: 10%;
   padding-right: 41%;
@@ -64,7 +64,6 @@ h6 {
   transition: ease-in-out 0.3s;
   position:fixed;
   height: 100vh;
-  margin-left: 53%;
   margin-top: 50%;
   display: flex;
   align-items: center;
